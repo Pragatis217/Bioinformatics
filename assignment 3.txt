@@ -1,0 +1,19 @@
+1. sed '/[Zz][Oo][Oo]/d' /Users/pragatisingh/desktop/pandas.txt > /Users/pragatisingh/desktop/panda_zoos.txt
+
+2. ( grep -i 'male' /Users/pragatisingh/desktop/pandas.txt; grep -i 'female' /Users/pragatisingh/desktop/pandas.txt ) | awk '{print $1, $4, $2}' | sort -k3 > /Users/pragatisingh/desktop/sorted_pandas.txt
+
+3. awk '{print $5}' /Users/pragatisingh/desktop/pandas.txt | sort | uniq > /Users/pragatisingh/desktop/panda_zoos_A2Z.txt
+
+4. sed -e 's/female/F/gI' -e 's/male/M/gI' /Users/pragatisingh/desktop/pandas.txt > /Users/pragatisingh/desktop/panda_m_f.txt
+
+5. grep -c "October" /Users/pragatisingh/desktop/pandas.txt
+
+6. grep -n '^' /Users/pragatisingh/desktop/pandas.txt | sed 's/:/ /' > /Users/pragatisingh/desktop/panda_names.txt
+
+7. sed -n -e '1p' -e '6p' -e '17p' /Users/pragatisingh/desktop/pandas.txt > /Users/pragatisingh/desktop/lines_1_6_17.txt
+
+8. grep -i "x" /Users/pragatisingh/desktop/pandas.txt > /Users/pragatisingh/desktop/x_lines.txt
+
+9. awk '{print $5}' /Users/pragatisingh/desktop/pandas.txt | sort | uniq > /Users/pragatisingh/desktop/unique_places.txt
+
+10.awk '$4 <= 10' pandas.txt | awk '{print $1, $4}' | sort -k2 > /Users/pragatisingh/desktop/young_pandas.txt
