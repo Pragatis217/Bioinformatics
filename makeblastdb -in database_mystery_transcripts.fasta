@@ -1,0 +1,10 @@
+makeblastdb -in database_mystery_transcripts.fasta -dbtype nucl -out bioinfo_1
+makeblastdb -in database_mystery_proteins.fasta -dbtype prot -out bioinfo_2
+blastn -db bioinfo_1 -query query_mystery_nucleotide.fasta -evalue 1e-3 -max_target_seqs 5 -outfmt 7 -out blast_results
+ 3 Hits, T010027234997 
+ awk '$3 > 90 {print $2}' blast_results > most_similar.txt
+blastp -db bioinfo_2 -query query_mystery_protein.fasta -evalue 1e-5 -max_target_seqs 15 -outfmt 7 -out blast_results_1
+6 Hits, P010027090796
+ 	Coffea arabica
+ 	Gardenia jasminoides
+ 	ardenia jasminoides putative catalase mRNA, complete cds.
