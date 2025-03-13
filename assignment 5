@@ -1,0 +1,20 @@
+Assignment 5
+3. muscle -in bats_ace2.fasta -out bats_ace2_aligned.fasta
+raxmlHPC -s bats_ace2_aligned.fasta -n output_tree -m GTRGAMMA -p 12345 -# 100 -f a
+
+
+
+
+4.Sequences from which species is/are most closely related to that of the "Flying Fox"?
+Pteropus lylei ace2
+Dobsonia viridis ace2
+Rousettus leschenaultii ace2
+Epomophorus wahlbergi ace2
+Cynopterus sphinx ace2
+Syconycteris australis ace2
+
+5. This phylogeny can be very useful in recent events, particularly in emerging infectious diseases, zoonotic spillover, and viral evolution. Here’s why:
+-Zoonotic Disease Risk – Identifies bat species that can act as viral reservoirs (e.g., coronaviruses, Nipah virus).
+- Host Shift Prediction – Allows monitoring virus adaptation and spillover potential.
+- Conservation  – Supports the conservation of biodiversity while avoiding human-wildlife disease transmission.
+- Vaccine & Therapeutics – Guides antiviral development by exploring ACE2 variants in resistant species.
