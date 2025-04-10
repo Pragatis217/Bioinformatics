@@ -1,0 +1,17 @@
+Assignment 7
+
+1. bedtools subtract -A -a ATAC_Diapause_all_OCRs_chr3.bed -b Exons_N_whitei_chr3.bed
+>> ATAC_Diapause_ncOCRs_chr3.bed
+bedtools subtract -A -a ATAC_Larvae_all_OCRs_chr3.bed -b Exons_N_whitei_chr3.bed >>
+ATAC_Larvae_ncOCRs_chr3.bed
+
+7. This figure illustrates the integration of multiple genomic datasets:
+
+ 
+       Non-coding OCR peaks: represent regions of accessible chromatin that likely contain regulatory elements like enhancers or promoters. The presence of these peaks in intergenic regions suggests potential regulatory function
+
+    RNA-Seq Data (Red) gene expression: The transcription signal shows active gene expression in this region. Peaks correspond to exons of actively transcribed genes
+
+    Loop: The chromatin loops connect distal regulatory elements (ATAC peaks) with gene promoters
+
+        
