@@ -6,7 +6,7 @@
 
 4. sed -e 's/female/F/gI' -e 's/male/M/gI' /Users/pragatisingh/desktop/pandas.txt > /Users/pragatisingh/desktop/panda_m_f.txt
 
-5. grep -c "October" /Users/pragatisingh/desktop/pandas.txt
+5. grep -i "female" /Users/pragatisingh/desktop/pandas.txt | grep -c "October"
 
 6. grep -n '^' /Users/pragatisingh/desktop/pandas.txt | sed 's/:/ /' > /Users/pragatisingh/desktop/panda_names.txt
 
