@@ -1,0 +1,14 @@
+Assignment 8
+
+1. Species (not human): Labeo rohita (Rohu carp)
+2. Gene (not tyrosinase): SLC40A1 (Solute Carrier Family 40 Member 1), also known as ferroportin.
+3. Rank 1 target sequence and genomic location: 
+Target: SLC40A1
+Rank: 1
+Target sequence: GTAACTCTTAAAGAGACCGTAGG
+Genomic Location: NC_066877.1:27549207
+4. Left primer coordinates: NC_066877.1:27549108-27549130
+Left primer: TTTCAGGTTTGCCTACAAAAGC
+Right primer coordinates: NC_066877.1:27549324-27549346	
+Right primer: TACTCAATGCATAAGCACAGCA
+5. Expected phenotype if the gene is knocked out: The SLC40A1 gene encodes ferroportin, the sole known iron exporter in vertebrate cells. Knocking out this gene in Labeo rohita is expected to disrupt iron homeostasis, leading to iron accumulation within cells, particularly in the liver and spleen. Phenotypically, this may manifest as anemia, reduced growth rates, compromised immune function, and increased susceptibility to infections due to impaired iron regulation.
